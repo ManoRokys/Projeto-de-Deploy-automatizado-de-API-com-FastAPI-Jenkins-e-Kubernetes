@@ -11,10 +11,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'docker build -t %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG% .'
+                bat 'docker build -t %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG% backend/'
                 bat 'docker images'
             }
         }
+ 
 
         stage('Push') {
             steps {
