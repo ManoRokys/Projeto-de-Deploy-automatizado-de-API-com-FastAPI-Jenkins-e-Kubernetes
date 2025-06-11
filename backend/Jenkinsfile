@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_HUB_USER = 'lucasgf557' 
+        IMAGE_NAME = 'fastapi-hello'
+        IMAGE_TAG = 'latest'
+        DOCKER_CREDENTIALS = credentials('docker-hub-credentials')
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                bat 'docker build -t %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG% .'
+                bat 'docker images'
+            }
+        }
+
+        stage('Push') {
+            steps {
+                bat 'echo %DOCKER_CREDENTIALS_PSW% | docker login -u %DOCKER_CREDENTIALS_USR% --password-stdin'
+                bat 'docker push %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG%'
+            }
+        }
+    }
+
+    post {
+        always {
+            bat 'docker logout'
+        }
+    }
+}
