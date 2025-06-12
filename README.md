@@ -62,10 +62,12 @@ Obs: Escolha os diretórios ou configurações que mais te agradem caso for nece
 
 
 ### Configuração do Docker Hub
-- Adicione suas credenciais no Docker Hub.
-- Gere um token de acesso pessoal.
+- Crie uma conta (caso não tenha uma) no Docker Hub.
+- Acesse os seus repositórios.
 
-> ![Configurações do Docker Hub](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-10 093956](https://github.com/user-attachments/assets/63472a46-fb8d-4611-b0ae-5862213fb19a)
+> ![Captura de tela 2025-06-10 094014](https://github.com/user-attachments/assets/68bdb1a7-d83e-4479-8577-7bc8901651df)
+
 
 ---
 
