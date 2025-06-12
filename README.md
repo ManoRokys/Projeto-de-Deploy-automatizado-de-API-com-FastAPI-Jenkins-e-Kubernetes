@@ -32,6 +32,15 @@ Obs: Escolha os diretórios ou configurações que mais te agradem caso for nece
 > ![Captura de tela 2025-06-10 091001](https://github.com/user-attachments/assets/8d777e06-ac47-4019-af45-370806596ec8)
 > ![Captura de tela 2025-06-10 091015](https://github.com/user-attachments/assets/14d07a8c-88db-4339-a8be-d8adb85e2003)
 
+Acesse `http://localhost:8080` para terminar as configurações iniciais.
+> ![Captura de tela 2025-06-10 091225](https://github.com/user-attachments/assets/2d540a04-694b-4465-907c-455983a7d5f6)
+> ![Captura de tela 2025-06-10 091613](https://github.com/user-attachments/assets/06bcfa62-504c-49b1-b88d-470b145b6dcc)
+Tela inicial do Jenkins.
+> ![Captura de tela 2025-06-10 091856](https://github.com/user-attachments/assets/98ddf5f3-f1da-451d-8edb-40c607e896da)
+
+
+
+
 ### Instalação do Rancher Desktop e Ativação do Kubernetes
 - Instale o Rancher Desktop.
 - Ative o cluster Kubernetes local.
