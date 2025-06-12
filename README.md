@@ -252,9 +252,12 @@ Instale os plugins:
 - Configure o webhook no GitHub com a URL gerada (ex.: `https://abc123.ngrok.io/github-webhook/`).
 
 > ![Captura de tela 2025-06-11 105845](https://github.com/user-attachments/assets/bbdf74c3-5257-4a21-9b16-e9158b1291f2)
+> 
 > ![Captura de tela 2025-06-11 105850](https://github.com/user-attachments/assets/bebd39ec-d250-4704-a7f8-e324d6b89a2a)
+> 
 > ![Captura de tela 2025-06-11 105855](https://github.com/user-attachments/assets/12ce044d-b28c-44b2-aac8-fe9369c73d02)
-> Coloque /github-webhook no final do link para funcionar:
+> 
+> Coloque /github-webhook/ no final do link para funcionar:
 > ![Captura de tela 2025-06-12 100101](https://github.com/user-attachments/assets/222b25f6-fb49-420a-8f28-8f5a95452d1a)
 
 
@@ -269,6 +272,7 @@ git push origin dev
 ```
 
 > Print do jenkins rodando automaticamente após o push
+> 
 > ![Captura de tela 2025-06-12 101816](https://github.com/user-attachments/assets/fc42323b-af4a-449a-9765-aa828a030281)
 
 
