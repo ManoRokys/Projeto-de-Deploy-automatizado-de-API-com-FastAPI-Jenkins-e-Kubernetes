@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_HUB_USER = 'lucasgf557' 
+        IMAGE_NAME = 'fastapi-hello'
+        IMAGE_TAG = 'latest'
+        DOCKER_CREDENTIALS = credentials('docker-hub-credentials')
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                bat 'docker build -t %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG% backend/'
+                bat 'docker images'
+            }
+        }
+ 
+
+        stage('Push') {
+            steps {
+                bat 'echo %DOCKER_CREDENTIALS_PSW% | docker login -u %DOCKER_CREDENTIALS_USR% --password-stdin'
+                bat 'docker push %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG%'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+                    bat 'set KUBECONFIG=%KUBECONFIG%'
+                    bat 'kubectl apply -f backend/deployment.yaml'
+                    bat 'kubectl apply -f backend/service.yaml'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            bat 'docker logout'
+        }
+    }
+}
