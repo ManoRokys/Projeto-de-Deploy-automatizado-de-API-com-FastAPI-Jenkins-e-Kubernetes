@@ -141,10 +141,10 @@ Acesse a API em:
 [http://localhost:8000]
 
 >  ![Captura de tela 2025-06-11 092415](https://github.com/user-attachments/assets/13f36e91-6f8c-4871-b9c0-c63ca1ab6a05)
+> 
 >  Testando a rota /cat
 >
 > ![Captura de tela 2025-06-11 092427](https://github.com/user-attachments/assets/0482e274-7661-40ae-b221-e5a9ee96192a)
-
 
 
 ---
@@ -154,15 +154,31 @@ Acesse a API em:
 ### Instalação de Plugins
 
 Instale os plugins:
-- Git
 - Docker
-- Pipeline
+- Docker Pipeline
+- Kubernetes CLI
+
+> ![Captura de tela 2025-06-10 091917](https://github.com/user-attachments/assets/711db3a0-3245-45f4-bfe7-d7b5da252e3c)
+> ![Captura de tela 2025-06-10 091921](https://github.com/user-attachments/assets/2712badf-e1c1-4fd2-a481-78a673515e62)
+> ![Captura de tela 2025-06-10 092759](https://github.com/user-attachments/assets/59347ae6-335d-47b0-a56d-de392cc84403)
+> ![Captura de tela 2025-06-10 092923](https://github.com/user-attachments/assets/743aea4f-ebb1-4086-a7d9-32ce644972e0)
+> ![Captura de tela 2025-06-10 093041](https://github.com/user-attachments/assets/69c03e55-5202-4372-9508-1c28d18f8d4f)
+
 
 ### Configurações do Jenkins
 
-- Configure credenciais para Docker Hub (`docker-hub-credentials`) e GitHub.
+- Configure credenciais para kubeconfig localizado nessa pasta:
+- ![Captura de tela 2025-06-10 093838](https://github.com/user-attachments/assets/78657c26-fa50-48f6-899d-8c0d264cc7bc)
+(`kubeconfig`).
 
-> ![Credenciais do Jenkins](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-10 093132](https://github.com/user-attachments/assets/7828c396-fb87-4c24-88a5-514a5bb93c14)
+> ![Captura de tela 2025-06-10 093711](https://github.com/user-attachments/assets/2590d36f-85ff-4d49-8c53-6303bbc83f6a)
+> ![Captura de tela 2025-06-10 093719](https://github.com/user-attachments/assets/b89fa3fa-c32c-4445-a153-3f87869b3772)
+> ![Captura de tela 2025-06-10 093854](https://github.com/user-attachments/assets/d293cbbf-d98b-4aee-9c0a-2802b7875212)
+
+
+
+
 
 ### Criação da Pipeline
 
