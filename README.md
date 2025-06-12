@@ -129,23 +129,23 @@ Executando a API localmente com o Docker:
 >
 > ![Captura de tela 2025-06-11 091911](https://github.com/user-attachments/assets/d496b4e0-ba54-49ca-b470-37604da29115)
 
-
-
-
-
-
-
+Ou usar o docker-compose
+> ![Captura de tela 2025-06-11 092317](https://github.com/user-attachments/assets/5f3368ec-1136-42cd-ac36-5094ff0feb80)
+> ![Captura de tela 2025-06-11 092330](https://github.com/user-attachments/assets/eb52a241-e44b-4aad-b386-ed4e4bcf55a8)
+> 
 ```bash
-cd backend
 docker-compose up --build
 ```
 
-> 
-
 Acesse a API em:  
-[http://localhost:8000](http://localhost:8000)
+[http://localhost:8000]
 
-> ![Sistema na porta 8000](INSIRA_LINK_DA_IMAGEM)
+>  ![Captura de tela 2025-06-11 092415](https://github.com/user-attachments/assets/13f36e91-6f8c-4871-b9c0-c63ca1ab6a05)
+>  Testando a rota /cat
+>
+> ![Captura de tela 2025-06-11 092427](https://github.com/user-attachments/assets/0482e274-7661-40ae-b221-e5a9ee96192a)
+
+
 
 ---
 
