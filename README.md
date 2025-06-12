@@ -204,19 +204,37 @@ Instale os plugins:
 > ![Captura de tela 2025-06-10 093719](https://github.com/user-attachments/assets/b89fa3fa-c32c-4445-a153-3f87869b3772)
 > ![Captura de tela 2025-06-10 093854](https://github.com/user-attachments/assets/d293cbbf-d98b-4aee-9c0a-2802b7875212)
 
+- Configure credenciais para o docker hub:
+
+> ![Captura de tela 2025-06-11 100536](https://github.com/user-attachments/assets/fccef2ab-2a24-477d-821b-39916760634c)
+> ![Captura de tela 2025-06-11 100632](https://github.com/user-attachments/assets/4f4c3517-13ef-4890-a443-084026a8606d)
+
 
 ### Criação da Pipeline
 
 - Crie uma pipeline chamada `fastapi-pipeline`.
 - Configure o SCM como Git, apontando para `backend/Jenkinsfile`.
 
-> ![Pipeline configurada](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-11 100735](https://github.com/user-attachments/assets/c10d4611-3977-4ccf-b362-365f4d6f63cb)
+> ![Captura de tela 2025-06-11 100754](https://github.com/user-attachments/assets/90d9f1cf-cafd-449c-8158-b6324ba71a22)
+> 
+> ![Captura de tela 2025-06-11 100804](https://github.com/user-attachments/assets/2162184c-4794-46d5-8727-0e5fd51403a1)
+>
+> ![Captura de tela 2025-06-11 103258](https://github.com/user-attachments/assets/739078b0-8e3c-4cc4-a5cb-71c1f6e8f2eb)
+> ![Captura de tela 2025-06-11 103517](https://github.com/user-attachments/assets/a7c43c83-2a5c-4a42-b9d0-dd9454e553cc)
+> ![Captura de tela 2025-06-11 103641](https://github.com/user-attachments/assets/6530d388-c246-4773-96fa-ef01c16cbe95)
+> ![Captura de tela 2025-06-11 105622](https://github.com/user-attachments/assets/427b2103-7766-4632-af46-1b70d5a41b93)
+>
+
 
 ### Primeiras Execuções
 
 - Execute a pipeline manualmente pela primeira vez.
+- Coloque o jenkinsfile no repositório do github e aperte em
 
-> ![Pipeline executando](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-11 105131](https://github.com/user-attachments/assets/1897bb60-1993-4d6c-ade8-9404917f5d94)
+> 
+> ![Captura de tela 2025-06-11 105135](https://github.com/user-attachments/assets/3e9de0a8-2708-4764-b779-cb606c2efffb)
 
 ---
 
@@ -294,7 +312,6 @@ Acesse a API em:
 - **FastAPI**: Framework para criar a API em Python.
 - **Docker**: Para containerização da aplicação.
 - **Docker Compose**: Para orquestração local dos contêineres.  
-  > ![docker-compose](INSIRA_LINK_DA_IMAGEM)
 - **Jenkins**: Para automação do CI/CD (build, push e deploy).
 - **Kubernetes**: Para orquestração e deploy da aplicação (via Rancher Desktop).
 - **GitHub**: Para controle de versão e integração com webhooks.
