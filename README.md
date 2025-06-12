@@ -92,6 +92,20 @@ cd Projeto-de-Deploy-automatizado-de-API-com-FastAPI-Jenkins-e-Kubernetes
 
 Execute a API localmente:
 
+entre na pasta /backend e rode:
+
+> ![Captura de tela 2025-06-10 101558](https://github.com/user-attachments/assets/bbf9b2e8-885e-4b67-a051-7aa9107448a0)
+> ![Captura de tela 2025-06-10 101645](https://github.com/user-attachments/assets/7760720a-61f0-4f9b-85f9-188f8526c35e)
+
+Acesse a API em:  
+[http://127.0.0.1:8000]
+> ![Captura de tela 2025-06-10 101713](https://github.com/user-attachments/assets/15a22e9a-a30f-472a-bc19-465df90adf36)
+> Testando a rota /cat
+> 
+> ![Captura de tela 2025-06-10 104658](https://github.com/user-attachments/assets/bae776e2-8654-4116-ae40-2c8a4f7c21c9)
+
+
+
 ```bash
 cd backend
 docker-compose up --build
