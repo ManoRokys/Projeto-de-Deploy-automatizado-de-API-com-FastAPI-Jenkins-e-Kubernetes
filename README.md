@@ -23,19 +23,20 @@ Abaixo, você encontrará os passos para reproduzir o projeto, as tecnologias ut
 - Baixe e instale o Jenkins no Windows.
 - Configure-o para rodar em `http://localhost:8080`.
 
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 090852](https://github.com/user-attachments/assets/508481d1-ed30-4653-8637-f91d8492741c)
+Obs: Escolha os diretórios ou configurações que mais te agradem caso for necessário.
+> (![Captura de tela 2025-06-10 090852](https://github.com/user-attachments/assets/508481d1-ed30-4653-8637-f91d8492741c)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 090902](https://github.com/user-attachments/assets/73eac217-8280-448b-8807-4980cd549d3f)
+> (![Captura de tela 2025-06-10 090902](https://github.com/user-attachments/assets/73eac217-8280-448b-8807-4980cd549d3f)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 090923](https://github.com/user-attachments/assets/8de66117-28b8-4829-8bc2-af88a094dde2)
+> (![Captura de tela 2025-06-10 090923](https://github.com/user-attachments/assets/8de66117-28b8-4829-8bc2-af88a094dde2)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 090933](https://github.com/user-attachments/assets/d2ecd387-9ebc-4cba-8c91-d50b0f649182)
+> (![Captura de tela 2025-06-10 090933](https://github.com/user-attachments/assets/d2ecd387-9ebc-4cba-8c91-d50b0f649182)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 090944](https://github.com/user-attachments/assets/f685a4d5-8bd4-4d38-9674-4276f058f3e6)
+> (![Captura de tela 2025-06-10 090944](https://github.com/user-attachments/assets/f685a4d5-8bd4-4d38-9674-4276f058f3e6)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 091001](https://github.com/user-attachments/assets/8d777e06-ac47-4019-af45-370806596ec8)
+> (![Captura de tela 2025-06-10 091001](https://github.com/user-attachments/assets/8d777e06-ac47-4019-af45-370806596ec8)
 )
-> ![Instalação do Jenkins](![Captura de tela 2025-06-10 091015](https://github.com/user-attachments/assets/14d07a8c-88db-4339-a8be-d8adb85e2003)
+> (![Captura de tela 2025-06-10 091015](https://github.com/user-attachments/assets/14d07a8c-88db-4339-a8be-d8adb85e2003)
 )
 
 ### Instalação do Rancher Desktop e Ativação do Kubernetes
