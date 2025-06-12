@@ -146,6 +146,27 @@ Acesse a API em:
 >
 > ![Captura de tela 2025-06-11 092427](https://github.com/user-attachments/assets/0482e274-7661-40ae-b221-e5a9ee96192a)
 
+Criando os arquivos do kubernetes no sistema:
+
+> ![Captura de tela 2025-06-11 094059](https://github.com/user-attachments/assets/16723ad1-81b6-43c2-9ed1-14fe336dfbd5)
+> ![Captura de tela 2025-06-11 094241](https://github.com/user-attachments/assets/2992e45b-e3c0-42bd-bdeb-0ef48be681c4)
+> ![Captura de tela 2025-06-11 094558](https://github.com/user-attachments/assets/eafeabc4-84bd-43f2-9099-4cfba1690600)
+> ![Captura de tela 2025-06-11 094649](https://github.com/user-attachments/assets/a2939890-d384-4fcf-ba98-f686e973a3a9)
+>
+> ![Captura de tela 2025-06-11 094734](https://github.com/user-attachments/assets/44ed7cb0-24b6-496a-af22-3d8fa9bf1ac5)
+> ![Captura de tela 2025-06-11 094739](https://github.com/user-attachments/assets/5f04562d-3e9b-4ccb-8cf7-14a1a1d807b1)
+> ![Captura de tela 2025-06-11 095615](https://github.com/user-attachments/assets/0be9edd8-50b1-4349-a6c7-68b53a03e2b7)
+> ![Captura de tela 2025-06-11 095640](https://github.com/user-attachments/assets/5859a72e-c1d6-49df-88b5-9fb40da2c4eb)
+
+Acesse a API em:  
+[http://localhost:30001]
+
+> ![Captura de tela 2025-06-11 095702](https://github.com/user-attachments/assets/7221fc4b-8d39-428e-b02f-85fa3f0f9441)
+>
+>  Testando a rota /cat
+>
+> ![Captura de tela 2025-06-11 095710](https://github.com/user-attachments/assets/5c7c36f9-e6a9-4913-ad55-0baa79b0c9df)
+
 
 ---
 
@@ -159,6 +180,7 @@ Instale os plugins:
 - Kubernetes CLI
 
 > ![Captura de tela 2025-06-10 091917](https://github.com/user-attachments/assets/711db3a0-3245-45f4-bfe7-d7b5da252e3c)
+> 
 > ![Captura de tela 2025-06-10 091921](https://github.com/user-attachments/assets/2712badf-e1c1-4fd2-a481-78a673515e62)
 > ![Captura de tela 2025-06-10 092759](https://github.com/user-attachments/assets/59347ae6-335d-47b0-a56d-de392cc84403)
 > ![Captura de tela 2025-06-10 092923](https://github.com/user-attachments/assets/743aea4f-ebb1-4086-a7d9-32ce644972e0)
@@ -175,9 +197,6 @@ Instale os plugins:
 > ![Captura de tela 2025-06-10 093711](https://github.com/user-attachments/assets/2590d36f-85ff-4d49-8c53-6303bbc83f6a)
 > ![Captura de tela 2025-06-10 093719](https://github.com/user-attachments/assets/b89fa3fa-c32c-4445-a153-3f87869b3772)
 > ![Captura de tela 2025-06-10 093854](https://github.com/user-attachments/assets/d293cbbf-d98b-4aee-9c0a-2802b7875212)
-
-
-
 
 
 ### Criação da Pipeline
