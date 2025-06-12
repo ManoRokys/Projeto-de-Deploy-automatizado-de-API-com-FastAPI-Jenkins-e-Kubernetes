@@ -149,13 +149,19 @@ Acesse a API em:
 Criando os arquivos do kubernetes no sistema:
 
 > ![Captura de tela 2025-06-11 094059](https://github.com/user-attachments/assets/16723ad1-81b6-43c2-9ed1-14fe336dfbd5)
+> 
 > ![Captura de tela 2025-06-11 094241](https://github.com/user-attachments/assets/2992e45b-e3c0-42bd-bdeb-0ef48be681c4)
+> 
 > ![Captura de tela 2025-06-11 094558](https://github.com/user-attachments/assets/eafeabc4-84bd-43f2-9099-4cfba1690600)
+> 
 > ![Captura de tela 2025-06-11 094649](https://github.com/user-attachments/assets/a2939890-d384-4fcf-ba98-f686e973a3a9)
 >
 > ![Captura de tela 2025-06-11 094734](https://github.com/user-attachments/assets/44ed7cb0-24b6-496a-af22-3d8fa9bf1ac5)
+> 
 > ![Captura de tela 2025-06-11 094739](https://github.com/user-attachments/assets/5f04562d-3e9b-4ccb-8cf7-14a1a1d807b1)
+> 
 > ![Captura de tela 2025-06-11 095615](https://github.com/user-attachments/assets/0be9edd8-50b1-4349-a6c7-68b53a03e2b7)
+> 
 > ![Captura de tela 2025-06-11 095640](https://github.com/user-attachments/assets/5859a72e-c1d6-49df-88b5-9fb40da2c4eb)
 
 Acesse a API em:  
