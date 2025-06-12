@@ -282,13 +282,19 @@ git push origin dev
 
 ### Configuração do `kubectl`
 
-- Configure o `kubeconfig` no Jenkins como **Secret File** (nome: `kubeconfig`).
+- Configure o `kubeconfig` no Jenkins como **Secret File** (nome: `kubeconfig`). (Mostrado em passos anteriores)
+
+> Jenkinsfile atualizado com o kubectl
+>
+> ![Captura de tela 2025-06-12 104051](https://github.com/user-attachments/assets/14885658-26cf-4516-9b31-035c6832da2b)
+
 
 ### Execução do Deploy
 
 - Após o push, a pipeline executa o deploy automático via Jenkins.
 
-> ![Execução do kubectl](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-12 104305](https://github.com/user-attachments/assets/a87bf04e-75f9-46ce-930a-9d2ae5e318a2)
+
 
 ### Verificação
 
@@ -300,26 +306,19 @@ kubectl get pods
 kubectl get services
 ```
 
-> ![Verificação do cluster](INSIRA_LINK_DA_IMAGEM)
+> ![Captura de tela 2025-06-12 104845](https://github.com/user-attachments/assets/15ebe297-6bcb-4eba-929b-a1c0bd139cef)
+
 
 Acesse a API em:  
-[http://localhost:30001](http://localhost:30001)
+[http://localhost:30001]
 
-> ![API funcionando](INSIRA_LINK_DA_IMAGEM)
+> Testando a rota /cat
+> 
+> ![Captura de tela 2025-06-12 104946](https://github.com/user-attachments/assets/0263889c-ff62-422b-a781-cc2044df7bcc)
 
----
-
-## 7. Testes
-
-### Captura da Execução do Docker
-
-> ![Execução do Docker](INSIRA_LINK_DA_IMAGEM)
-
-### Testes Após o Deploy
-
-> ![API funcionando após deploy](INSIRA_LINK_DA_IMAGEM)
 
 ---
+
 
 ## Tecnologias Usadas
 
