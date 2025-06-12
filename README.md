@@ -95,14 +95,43 @@ Execute a API localmente:
 entre na pasta /backend e rode:
 
 > ![Captura de tela 2025-06-10 101558](https://github.com/user-attachments/assets/bbf9b2e8-885e-4b67-a051-7aa9107448a0)
+> 
 > ![Captura de tela 2025-06-10 101645](https://github.com/user-attachments/assets/7760720a-61f0-4f9b-85f9-188f8526c35e)
 
 Acesse a API em:  
 [http://127.0.0.1:8000]
 > ![Captura de tela 2025-06-10 101713](https://github.com/user-attachments/assets/15a22e9a-a30f-472a-bc19-465df90adf36)
+>
 > Testando a rota /cat
 > 
 > ![Captura de tela 2025-06-10 104658](https://github.com/user-attachments/assets/bae776e2-8654-4116-ae40-2c8a4f7c21c9)
+
+Executando a API localmente com o Docker:
+
+> Faça o login com o comando
+> ![Captura de tela 2025-06-11 091638](https://github.com/user-attachments/assets/971ebfd7-c8d4-415b-8b1d-0cb5714e7d84)
+>
+> Copie o codigo informado no passo anterior e cole no site
+>
+> ![Captura de tela 2025-06-11 091651](https://github.com/user-attachments/assets/85ca652f-bf72-47d6-8584-df02f0eebe30)
+>
+> Espere essa mensagem aparecer
+>
+> ![Captura de tela 2025-06-11 091732](https://github.com/user-attachments/assets/8fcf57e2-8fba-4316-9f39-9387b7e3b87b)
+>
+> Faça o Build e o Push da imagem normalmente
+>
+> ![Captura de tela 2025-06-11 091346](https://github.com/user-attachments/assets/872d623a-9991-4872-9b4a-24c7ac45f7ea)
+> ![Captura de tela 2025-06-11 091512](https://github.com/user-attachments/assets/8ec72956-0d43-4643-bed2-0c6dbab1f0df)
+> ![Captura de tela 2025-06-11 091809](https://github.com/user-attachments/assets/6b8c108b-d336-4a01-a1ed-2bd6465352c5)
+>
+> Docker refletido no repositório do Docker Hub
+>
+> ![Captura de tela 2025-06-11 091911](https://github.com/user-attachments/assets/d496b4e0-ba54-49ca-b470-37604da29115)
+
+
+
+
 
 
 
@@ -111,7 +140,7 @@ cd backend
 docker-compose up --build
 ```
 
-> ![Primeira montagem](INSIRA_LINK_DA_IMAGEM)
+> 
 
 Acesse a API em:  
 [http://localhost:8000](http://localhost:8000)
