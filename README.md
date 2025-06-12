@@ -48,11 +48,13 @@ Tela inicial do Jenkins.
 Obs: Escolha os diretórios ou configurações que mais te agradem caso for necessário.
 > ![Captura de tela 2025-06-10 092021](https://github.com/user-attachments/assets/50b6fbf8-f62b-484e-b4b2-d4aa3e75838b)
 > ![Captura de tela 2025-06-10 092032](https://github.com/user-attachments/assets/700c076e-f0bd-4de3-bf0e-bb46931446aa)
+>
 > Após o passo seguinte irá abrir uma tela de confirmação de administrador, coloque a senha ou apenas aprove.
 > ![Captura de tela 2025-06-10 092040](https://github.com/user-attachments/assets/c9ca7ffb-0c05-4cf9-a046-5915ccdc58d4)
 > ![Captura de tela 2025-06-10 092113](https://github.com/user-attachments/assets/a529f65b-e64e-4db3-8e23-100d772c7c16)
 
 > Espere a tela do rancher desktop abrir
+> 
 > ![Captura de tela 2025-06-10 092607](https://github.com/user-attachments/assets/ce84fd6a-9306-4c36-ba9d-67052e1891c2)
 > ![Captura de tela 2025-06-10 092551](https://github.com/user-attachments/assets/6f51ff6a-3a8a-4752-b60d-59f2c2df0a0c)
 > ![Captura de tela 2025-06-10 092557](https://github.com/user-attachments/assets/83edc173-1ba6-4e71-a301-ab97dd983777)
