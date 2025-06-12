@@ -23,6 +23,15 @@ pipeline {
                 bat 'docker push %DOCKER_HUB_USER%/%IMAGE_NAME%:%IMAGE_TAG%'
             }
         }
+        stage('Deploy') {
+            steps {
+                withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+                    bat 'set KUBECONFIG=%KUBECONFIG%'
+                    bat 'kubectl apply -f backend/deployment.yaml'
+                    bat 'kubectl apply -f backend/service.yaml'
+                }
+            }
+        }
     }
 
     post {
