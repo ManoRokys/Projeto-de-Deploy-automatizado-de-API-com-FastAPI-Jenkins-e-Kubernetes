@@ -39,4 +39,15 @@ pipeline {
             bat 'docker logout'
         }
     }
+    post {
+        always {
+            chuckNorris()
+        }
+        success {
+            echo 'Pipeline executado com sucesso! 🎉'
+        }
+        failure {
+            echo 'Pipeline falhou! ❌'
+        }
+    }
 }
